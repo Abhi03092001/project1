@@ -1,0 +1,35 @@
+4:15-4:30
+1:30-2:30
+11:15-11:30
+trainer : Maher
+
+Abhishek Divakar  divakaab@amazon.com
+user id : amazonuser58@mml.local
+password : y9Er6HnbD	
+link : https://laas.makemylabs.in/wsm/SDESE-Amazon16052520250508132703?invitation_id=b3b0a368-1067-4a4f-8598-6c025d34cfc8&context=True
+
+Your Doc name: 
+
+Day 1 - Eid - Name
+
+
+y9Er6HnbD
+https://github.com/Abhi03092001/project1.git
+
+Navigate to d drive
+Create folder “ATLAS” or any thing
+Copy address/location of the folder
+Create a file “test.txt”
+Navigate to git bash terminal
+Type cd d://ATLAS
+git init
+git config —global user.email “<your email>”
+git config —global user.name “<your name>”
+git add . && git commit -m “your message”
+git pull <url of your repo>
+git add origin “url of your repo”
+git push
+login popup will come, authenticate
+done
+
+https://drive.google.com/drive/folders/1LwhNov1s1-vHzF9GPAObLSnP9kAvipmw?usp=sharing
