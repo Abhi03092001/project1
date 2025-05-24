@@ -38,3 +38,52 @@ curd operations
 mongod compass sh
 
 https://docs.google.com/document/d/1tQZiTnnS9hOreFR7DkEwVPyNhDjoNI0WOHUu0RkbQH8/edit?tab=t.0
+
+Aggregate fundtions:
+
+
+count()
+
+distinct()
+
+$Group:
+
+
+db.users.aggregate([
+ { $group: { _id: "$city", averageAge: { $avg: "$age" } } }
+])
+
+
+$project:
+
+
+Merge 
+
+db.sales.aggregate( [
+  { $project: { _id: 0 } },
+  { $merge : { into : "newCollection" } }
+] )
+
+
+
+
+Upsert:
+
+db.employee.findAndModify({
+     query:{name:"Ram"},
+      update:{$set:{department:"Development"}},
+      upsert:true
+})
+
+
+$match:
+
+db.users.aggregate([
+ { $match: { age: { $gt: 30 } } }
+])
+
+$sort:
+
+db.users.aggregate([
+ { $sort: { age: 1 } }
+])
